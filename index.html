@@ -1,33 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="style.css" />
 
     <title>My Resume</title>
 </head>
+
 <body>
     <div class="header">
         <h1>Alexander Druzenko</h1>
-        <img class="prof-pic" src="file.jpg"/>
-        <p class="summary"> I am a highly motivated software engineer and designer, looking to express my breadth of expertise from 
-            the many projects where I lead the creation and development of user centric applications. 
+        <img class="prof-pic" src="file.jpg" />
+        <p class="summary"> I am a highly motivated software engineer and designer, looking to express my breadth of
+            expertise from
+            the many projects where I lead the creation and development of user centric applications.
             Proficient in all major web frameworks, as well as user centric design principles
-            </p>
-            <nav>
-                <a href="#education">Education</a>
-                <a href="#workexp">Work Experience</a>
-                <a href="#skills">Skills</a>
-            </nav>
-    
+        </p>
+        <nav>
+            <a href="#education">Education</a>
+            <a href="#workexp">Work Experience</a>
+            <a href="#volunteering">Volunteering</a>
+            <a href="#skills">Skills</a>
+        </nav>
+
     </div>
     <div class="mainPage">
         <div>
-            <h2>Education</h2>
+            <h2 id="education">Education</h2>
+            <ul class="educationList">
+                <li>
+                    <h3>New Jersey Institute of Technology</h3>
+                    <p>Masters in Computer Science</p>
+                    <p>GPA: 4.0 | 2024-Present</p>
+                </li>
+                <li>
+                    <h3>New Jersey Institute of Technology</h3>
+                    <p>Bachelors in Computer Science</p>
+                    <p>GPA: 3.97 | Summa Cume Laude | 2021-2024</p>
+                </li>
+                <li>
+                    <h3>Bergen County Acadamies</h3>
+                    <p>Academy for Technology and Computer Science</p>
+                    <p>GPA: 3.93 | 2017-2021</p>
+                </li>
+            </ul>
+        </div>
+        <hr />
+        <div>
+            <h2 id="workexp">Work Experience</h2>
+            <ul class="workList">
+                <li>
+                    <h3>LX Aer <span class="normalFont">| Sept. 2024-Present</span></h3>
+                    <p>Software Developer | Using: Next.js, Xojo</p>
+                    <ul class="workAccomplishments">
+                        <li>
+                            Building new major components of their early-stage LMS such as the admin panel, where admins
+                            can view and modify user and educational license data.
+                        </li>
+                        <li>
+                            Improving stability by detecting the sources of common crashes and implementing error
+                            handling.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Epic Systems <span class="normalFont">| Summer 2024</span></h3>
+                    <p>Software Engineer Intern | Used: React.js, C#, .NET</p>
+                    <ul class="workAccomplishments">
+                        <li>
+                            Designed and developed an improved on-call provider scheduling tool, with more detailed
+                            information, advanced filtering options, and improved UX.
+                        </li>
+                        <li>
+                            Lead design meetings using feedback I gathered from the company’s largest customers and team
+                            experts to elevate the user experience.
+                        </li>
+                        <li>
+                            Completed development of all the project milestones within 1 month, allowing for development
+                            of additional features, e.g. filtering based on similar provider specialties and VoIP calls
+                            through desktop.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Real Estate NJ <span class="normalFont">| Jun. 2022-Jan. 2023</span></h3>
+                    <p>Web Designer/Developer | Using: PHP, Wordpress</p>
+                    <ul class="workAccomplishments">
+                        <li>
+                            Fully designed a brand new website, focusing on maintainability and visual clarity.
+                        </li>
+                        <li>
+                            Developed a modernized web application that will serve over 20,000 consumers daily.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Chefmod <span class="normalFont">| Summer 2022</span></h3>
+                    <p>Web Development Intern | Used: Angular, Ionic, AngularJS</p>
+                    <ul class="workAccomplishments">
+                        <li>
+                            Implemented functionality for scanning and digitizing invoices via the mobile camera.
+                        </li>
+                        <li>
+                            Migrated the invoice page of the mobile application from AngularJS to Angular.
+                        </li>
+                        <li>
+                            Performed quality assurance on the main web application, discovering and resolving numerous bugs.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <hr />
+
+        <div>
+            <h2 id="volunteering">Volunteering</h2>
+            <ul class="workList">
+                <li>
+                    <h3>NJIT Association of Computing Machinery <span class="normalFont">| Jan. 2022 — Jan. 2024</span></h3>
+                    <p>Webmaster | Using: Vue, Go</p>
+                    <ul class="workAccomplishments">
+                        <li>
+                            Planned and executed the design and development of the new main ACM website.
+                        </li>
+                        <li>
+                            Maintained 3 more websites used across the entire NJIT ACM organization.
+                        </li>
+                        <li>
+                            Restructured the hosting for all of the organization’s websites for unification and better maintenance.
+                        </li>
+                        <li>
+                            Contributed to organizing and running the JerseyCTF and HackNJIT events with over 500 attendees each.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
 </body>
+
 </html>
